@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wa_green">#075E54</color>
+    <color name="wa_green_dark">#054C44</color>
+    <color name="wa_send">#128C7E</color>
+    <color name="wa_user_bubble">#DCF8C6</color>
+    <color name="wa_ai_bubble">#FFFFFF</color>
+    <color name="chat_bg">#ECE5DD</color>
+    <color name="text_primary">#202124</color>
+    <color name="text_secondary">#6B7280</color>
+</resources>

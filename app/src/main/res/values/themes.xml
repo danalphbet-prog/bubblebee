@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.QwenLocal" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/wa_green</item>
+        <item name="colorPrimaryVariant">@color/wa_green_dark</item>
+        <item name="colorSecondary">@color/wa_send</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:navigationBarColor">#F5F5F5</item>
+        <item name="android:statusBarColor">@color/wa_green_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
