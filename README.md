@@ -21,16 +21,16 @@ O histórico é salvo em `filesDir/conversation.json`. O modelo fica em `filesDi
 2. Envie todos os arquivos deste projeto para a raiz.
 3. Faça `git push`.
 4. Abra **Actions > Build Android APK**.
-5. Ao terminar, baixe o artifact `qwen-local-chat-apk`.
+5. Ao terminar, baixe o artifact `bubblebee-apk`.
 
-O workflow usa **Ubuntu Linux**, Java 17, Android SDK 36, NDK 29 e baixa `llama.cpp v0.6.0` automaticamente.
+O workflow usa **Ubuntu Linux**, Java 17, Android SDK 36, NDK 29, CMake 3.31.6 e **Gradle 8.14.3**, e baixa `llama.cpp v0.6.0` automaticamente.
 
 ## Compilar localmente em Linux
 
 ```bash
-./scripts/fetch-llama.sh
+bash scripts/fetch-llama.sh
 # Instale Android SDK 36, NDK 29.0.13113456 e CMake 3.31.6
-gradle :app:assembleDebug
+gradle :app:assembleDebug --no-daemon
 ```
 
 ## Modelo
